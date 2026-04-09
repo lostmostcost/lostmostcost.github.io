@@ -1,0 +1,14 @@
+title: I = log(1/p)
+description: "lostmostcost blog"
+baseurl: "" 
+url: "https://lostmostcost.github.io"
+
+# Jekyll 구성
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .jekyll-cache
+  - .sass-cache
