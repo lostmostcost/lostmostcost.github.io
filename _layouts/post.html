@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="post-container">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.artist }} - {{ page.album_title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <span class="date">{{ page.date | date: "%Y.%m.%d" }}</span>
+    <br>
+    <a href="/">← Back</a>
+  </footer>
+</article>

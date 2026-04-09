@@ -49,3 +49,57 @@ body {
 .album-card:hover .album-info {
   opacity: 1;
 }
+
+/* Post Layout */
+.post-container {
+  max-width: 650px; /* 읽기 가장 편한 너비 */
+  margin: 80px auto;
+  line-height: 1.8; /* 줄 간격을 넓게 해서 가독성 확보 */
+  letter-spacing: -0.01em;
+  color: #d1d1d1; /* 순백색보다는 약간 눈이 편한 회색 */
+}
+
+.post-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* 본문 내 요소 스타일 (Raw & Minimal) */
+.post-content h2, .post-content h3 {
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.post-content p {
+  margin-bottom: 25px;
+}
+
+/* 앨범 커버나 본문 이미지 */
+.post-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 40px auto;
+  border-radius: 2px;
+  filter: grayscale(20%); /* 약간의 raw한 느낌을 위해 채도를 낮춤 */
+}
+
+/* 인용구 스타일 (가독성 포인트) */
+.post-content blockquote {
+  border-left: 2px solid #444;
+  margin: 40px 0;
+  padding-left: 20px;
+  font-style: italic;
+  color: #888;
+}
